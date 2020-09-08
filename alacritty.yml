@@ -164,34 +164,42 @@ font:
 
 # Colors (Tomorrow Night)
 #colors:
-# Colors (Monokai Pro)
+# Colors (Nightfly)
 colors:
-  # Default colors
+   # Default colors
   primary:
-    background: '#2D2A2E'
-    foreground: '#FCFCFA'
+     background: '#011627'
+     foreground: '#acb4c2'
 
-  # Normal colors
+  cursor:
+    text: '#fafafa'
+    cursor: '#9ca1aa'
+
+  selection:
+    text: '#080808'
+    background: '#b2ceee'
+
+   # Normal colors
   normal:
-    black:   '#403E41'
-    red:     '#FF6188'
-    green:   '#A9DC76'
-    yellow:  '#FFD866'
-    blue:    '#FC9867'
-    magenta: '#AB9DF2'
-    cyan:    '#78DCE8'
-    white:   '#FCFCFA'
+    black:   '#1d3b53'
+    red:     '#fc514e'
+    green:   '#a1cd5e'
+    yellow:  '#e3d18a'
+    blue:    '#82aaff'
+    magenta: '#c792ea'
+    cyan:    '#7fdbca'
+    white:   '#a1aab8'
 
-  # Bright colors
+   # Bright colors
   bright:
-    black:   '#727072'
-    red:     '#FF6188'
-    green:   '#A9DC76'
-    yellow:  '#FFD866'
-    blue:    '#FC9867'
-    magenta: '#AB9DF2'
-    cyan:    '#78DCE8'
-    white:   '#FCFCFA'
+    black:   '#7c8f8f'
+    red:     '#ff5874'
+    green:   '#21c7a8'
+    yellow:  '#ecc48d'
+    blue:    '#82aaff'
+    magenta: '#ae81ff'
+    cyan:    '#7fdbca'
+    white:   '#d6deeb'
 
 
   # Default colors
