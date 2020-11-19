@@ -162,46 +162,34 @@ font:
 # If `true`, bold text is drawn using the bright color variants.
 #draw_bold_text_with_bright_colors: false
 
-# Colors (Tomorrow Night)
-#colors:
-# Colors (Nightfly)
+# Colors (Dracula)
 colors:
-   # Default colors
+  # Default colors
   primary:
-     background: '#011627'
-     foreground: '#acb4c2'
-
-  cursor:
-    text: '#fafafa'
-    cursor: '#9ca1aa'
-
-  selection:
-    text: '#080808'
-    background: '#b2ceee'
-
-   # Normal colors
+    background: '0x0f0f0f'
+    foreground: '0xf8f8f2'
+ 
+  # Normal colors
   normal:
-    black:   '#1d3b53'
-    red:     '#fc514e'
-    green:   '#a1cd5e'
-    yellow:  '#e3d18a'
-    blue:    '#82aaff'
-    magenta: '#c792ea'
-    cyan:    '#7fdbca'
-    white:   '#a1aab8'
-
-   # Bright colors
+    black:   '0x3b3b38'
+    red:     '0xff5555'
+    green:   '0x50fa7b'
+    yellow:  '0xf1fa8c'
+    blue:    '0xbd93f9'
+    magenta: '0xff79c6'
+    cyan:    '0x8be9fd'
+    white:   '0xbbbbbb'
+ 
+  # Bright colors
   bright:
-    black:   '#7c8f8f'
-    red:     '#ff5874'
-    green:   '#21c7a8'
-    yellow:  '#ecc48d'
-    blue:    '#82aaff'
-    magenta: '#ae81ff'
-    cyan:    '#7fdbca'
-    white:   '#d6deeb'
-
-
+    black:   '0x555555'
+    red:     '0xff5555'
+    green:   '0x50fa7b'
+    yellow:  '0xf1fa8c'
+    blue:    '0xcaa9fa'
+    magenta: '0xff79c6'
+    cyan:    '0x8be9fd'
+    white:   '0xffffff'
   # Default colors
   #primary:
   #  background: '#1d1f21'
@@ -350,7 +338,7 @@ colors:
 #
 # Window opacity as a floating point number from `0.0` to `1.0`.
 # The value `0.0` is completely transparent and `1.0` is opaque.
-background_opacity: 0.9
+background_opacity: 1
 
 #selection:
   #semantic_escape_chars: ",│`|:\"' ()[]{}<>\t"
